@@ -1,0 +1,30 @@
+1. Receive 15 measurements (DOWHILE)
+Every day, a researcher receives 15 measurements. 
+He needs a program written that will accept each measurement 
+and convert it to its metric equivalent. The result shall display on the monitor. 
+After all 15 measurements are entered, the words "All measurements processed" 
+shall be displayed on the screen.
+---------------------------------------------------
+INPUTS
+measurement
+
+PROCESSING STEPS
+Receive 15 measurements
+Convert them to their metric equivalent
+Add 1 to numberOfMeasurements 
+
+OUTPUTS
+Display "All measurements processed" 15 times
+
+
+PSEUDOCODE
+Initialize enteredMeasurement to 1
+Initialize metricEquivalent to zero
+REPEAT 
+	Prompt user for measurement
+	Get measurement
+	Convert measurement to metricEquivalent              
+	Display "All measurements processed"
+	Add 1 to numberOfMeasurements
+UNTIL numberOfMeasurements <= 15
+----------------------------------------------------
