@@ -20,11 +20,11 @@ Display "All measurements processed" 15 times
 PSEUDOCODE
 Initialize enteredMeasurement to 1
 Initialize metricEquivalent to zero
-DO numberOfMeasurements = 1 to 15
+FOR numberOfMeasurements = 1 to 15
 	Prompt user for measurement
 	Get measurement
-	Convert measurement to metricEquivalent              
+	Convert measurement to metricEquivalent              
 	Display "All measurements processed"
 	Add 1 to numberOfMeasurements 
-ENDDO    
+ENDFOR    
 ----------------------------------------------------
